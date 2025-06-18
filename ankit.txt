@@ -1,0 +1,40 @@
+#include<iostream>
+using namespace std;
+class test
+{
+     public:
+     int a,b,add,sub;
+     void subtraction();
+     int addition(int x,int y)
+     
+     {
+         x=a;
+         y=b;
+         cout<<"Enter A:";
+         cin>>a;
+         cout<<"Enter B:";
+         cin>>b;
+         add=a+b;
+         cout<<"addition:"<<add<<endl;
+         return 0;
+     }
+};
+void test::subtraction()
+{
+    cout<<"Enter A:";
+    cin>>a;
+    cout<<"Enter B:";
+    cin>>b;
+    sub=a-b;
+    cout<<"subtraction:"<<sub;
+    
+}
+
+int main()
+{
+    test t1;
+    t1.addition(0,0);
+    t1.subtraction();
+    return 0;
+}
+
