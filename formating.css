@@ -5,6 +5,14 @@ body{
 
 
 
+div{
+    background-color: red;
+    background-image: url(car-8740899_1280.png);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 p{
     background-color: red;
     background-image: url(car-8740899_1280.png);
